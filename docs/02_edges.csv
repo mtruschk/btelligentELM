@@ -1,0 +1,18 @@
+base_name,source_type,source_label,connection_type,connection_label,target_type,target_label,connection_id,source_shape_id,target_shape_id
+Ensemble1,Satellite,Adressdaten,Hub-to-Sat,,Hub,Location,Ensemble1.NiGAJ-zjjn4dBykOqdRH-10,Ensemble1.NiGAJ-zjjn4dBykOqdRH-15,Ensemble1.NiGAJ-zjjn4dBykOqdRH-14
+Ensemble1,Hub,Location,Hub-to-Link-N,,Link,Link,Ensemble1.NiGAJ-zjjn4dBykOqdRH-11,Ensemble1.NiGAJ-zjjn4dBykOqdRH-14,Ensemble1.NiGAJ-zjjn4dBykOqdRH-9
+Ensemble1,Hub,Advice,Hub-to-Link-1,,Link,Link,Ensemble1.NiGAJ-zjjn4dBykOqdRH-12,Ensemble1.NiGAJ-zjjn4dBykOqdRH-20,Ensemble1.NiGAJ-zjjn4dBykOqdRH-9
+Ensemble1,Satellite,Finanzdaten,Hub-to-Sat,,Hub,Client,Ensemble1.NiGAJ-zjjn4dBykOqdRH-16,Ensemble1.NiGAJ-zjjn4dBykOqdRH-13,Ensemble1.NiGAJ-zjjn4dBykOqdRH-7
+Ensemble1,Satellite,Adressdaten,Hub-to-Sat,,Hub,Client,Ensemble1.NiGAJ-zjjn4dBykOqdRH-17,Ensemble1.NiGAJ-zjjn4dBykOqdRH-8,Ensemble1.NiGAJ-zjjn4dBykOqdRH-7
+Ensemble1,Hub,Client,Hub-to-Link-N,,Link,Link,Ensemble1.NiGAJ-zjjn4dBykOqdRH-18,Ensemble1.NiGAJ-zjjn4dBykOqdRH-7,Ensemble1.NiGAJ-zjjn4dBykOqdRH-9
+Ensemble1,Satellite,Ermittlung,Hub-to-Sat,,Hub,Advice,Ensemble1.NiGAJ-zjjn4dBykOqdRH-19,Ensemble1.NiGAJ-zjjn4dBykOqdRH-21,Ensemble1.NiGAJ-zjjn4dBykOqdRH-20
+Ensemble1,Satellite,Default,Hub-to-Sat,,Hub,Advice Line,Ensemble1.NiGAJ-zjjn4dBykOqdRH-25,Ensemble1.NiGAJ-zjjn4dBykOqdRH-29,Ensemble1.NiGAJ-zjjn4dBykOqdRH-28
+Ensemble1,Satellite,Logistikdaten,Hub-to-Sat,,Hub,Article,Ensemble1.NiGAJ-zjjn4dBykOqdRH-30,Ensemble1.NiGAJ-zjjn4dBykOqdRH-27,Ensemble1.NiGAJ-zjjn4dBykOqdRH-22
+Ensemble1,Satellite,Produktdaten,Hub-to-Sat,,Hub,Article,Ensemble1.NiGAJ-zjjn4dBykOqdRH-31,Ensemble1.NiGAJ-zjjn4dBykOqdRH-23,Ensemble1.NiGAJ-zjjn4dBykOqdRH-22
+Ensemble1,Hub,Article,Hub-to-Link-N,,Link,Link,Ensemble1.NiGAJ-zjjn4dBykOqdRH-32,Ensemble1.NiGAJ-zjjn4dBykOqdRH-22,Ensemble1.NiGAJ-zjjn4dBykOqdRH-24
+Ensemble1,Hub,Advice Line,Hub-to-Link-1,,Link,Link,Ensemble1.NiGAJ-zjjn4dBykOqdRH-34,Ensemble1.NiGAJ-zjjn4dBykOqdRH-28,Ensemble1.NiGAJ-zjjn4dBykOqdRH-33
+Ensemble1,Hub,Advice,Hub-to-Link-N,,Link,Link,Ensemble1.NiGAJ-zjjn4dBykOqdRH-35,Ensemble1.NiGAJ-zjjn4dBykOqdRH-20,Ensemble1.NiGAJ-zjjn4dBykOqdRH-33
+Ensemble1,Hub,Advice Line,Hub-to-Link-1,,Link,Link,Ensemble1.NiGAJ-zjjn4dBykOqdRH-36,Ensemble1.NiGAJ-zjjn4dBykOqdRH-28,Ensemble1.NiGAJ-zjjn4dBykOqdRH-24
+Ensemble1,Satellite,Default,Hub-to-Sat,,Hub,Manufacturer,Ensemble1.NiGAJ-zjjn4dBykOqdRH-37,Ensemble1.NiGAJ-zjjn4dBykOqdRH-39,Ensemble1.NiGAJ-zjjn4dBykOqdRH-38
+Ensemble1,Hub,Manufacturer,Hub-to-Link-N,,Link,Link,Ensemble1.NiGAJ-zjjn4dBykOqdRH-42,Ensemble1.NiGAJ-zjjn4dBykOqdRH-38,Ensemble1.NiGAJ-zjjn4dBykOqdRH-40
+Ensemble1,Hub,Article,Hub-to-Link-N,,Link,Link,Ensemble1.NiGAJ-zjjn4dBykOqdRH-43,Ensemble1.NiGAJ-zjjn4dBykOqdRH-22,Ensemble1.NiGAJ-zjjn4dBykOqdRH-40

@@ -1,0 +1,275 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0" version="25.0.3">
+  <diagram name="Seite-1" id="AstvK5kedE1Kh-DQ6AzO">
+    <mxGraphModel dx="1783" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="Hub" btelligentADAPTType="Hub" id="NiGAJ-zjjn4dBykOqdRH-1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="200" y="440" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Satellite" btelligentADAPTType="Satellite" id="NiGAJ-zjjn4dBykOqdRH-2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+            <mxGeometry x="200" y="360" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Link" btelligentADAPTType="Link" id="NiGAJ-zjjn4dBykOqdRH-3">
+          <mxCell style="shape=associativeEntity;whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+            <mxGeometry x="200" y="520" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" btelligentADAPTType="Hub-to-Sat" id="NiGAJ-zjjn4dBykOqdRH-4">
+          <mxCell style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="430" y="490" as="sourcePoint" />
+              <mxPoint x="480" y="440" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" btelligentADAPTType="Hub-to-Link-N" id="NiGAJ-zjjn4dBykOqdRH-5">
+          <mxCell style="endArrow=ERmany;html=1;rounded=0;endSize=15;endFill=0;" edge="1" parent="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="430" y="530" as="sourcePoint" />
+              <mxPoint x="480" y="480" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" btelligentADAPTType="Hub-to-Link-1" id="NiGAJ-zjjn4dBykOqdRH-6">
+          <mxCell style="endArrow=ERone;html=1;rounded=0;endSize=15;endFill=0;" edge="1" parent="1">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="440" y="560" as="sourcePoint" />
+              <mxPoint x="490" y="510" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Client" btelligentADAPTType="Hub" id="NiGAJ-zjjn4dBykOqdRH-7">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="520" y="840" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Adressdaten" btelligentADAPTType="Satellite" id="NiGAJ-zjjn4dBykOqdRH-8">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+            <mxGeometry x="680" y="840" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Link" btelligentADAPTType="Link" id="NiGAJ-zjjn4dBykOqdRH-9">
+          <mxCell style="shape=associativeEntity;whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+            <mxGeometry x="280" y="840" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" btelligentADAPTType="Hub-to-Sat" id="NiGAJ-zjjn4dBykOqdRH-10">
+          <mxCell style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="NiGAJ-zjjn4dBykOqdRH-15" target="NiGAJ-zjjn4dBykOqdRH-14">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="430" y="890" as="sourcePoint" />
+              <mxPoint x="480" y="840" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" btelligentADAPTType="Hub-to-Link-N" id="NiGAJ-zjjn4dBykOqdRH-11">
+          <mxCell style="endArrow=ERmany;html=1;rounded=0;endSize=15;endFill=0;" edge="1" parent="1" source="NiGAJ-zjjn4dBykOqdRH-14" target="NiGAJ-zjjn4dBykOqdRH-9">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="50" y="1035" as="sourcePoint" />
+              <mxPoint x="100" y="985" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" btelligentADAPTType="Hub-to-Link-1" id="NiGAJ-zjjn4dBykOqdRH-12">
+          <mxCell style="endArrow=ERone;html=1;rounded=0;endSize=15;endFill=0;" edge="1" parent="1" source="NiGAJ-zjjn4dBykOqdRH-20" target="NiGAJ-zjjn4dBykOqdRH-9">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="640" y="1190" as="sourcePoint" />
+              <mxPoint x="690" y="1140" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Finanzdaten" btelligentADAPTType="Satellite" id="NiGAJ-zjjn4dBykOqdRH-13">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+            <mxGeometry x="520" y="740" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Location" btelligentADAPTType="Hub" id="NiGAJ-zjjn4dBykOqdRH-14">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="40" y="840" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Adressdaten" btelligentADAPTType="Satellite" id="NiGAJ-zjjn4dBykOqdRH-15">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+            <mxGeometry x="-120" y="840" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" btelligentADAPTType="Hub-to-Sat" id="NiGAJ-zjjn4dBykOqdRH-16">
+          <mxCell style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="NiGAJ-zjjn4dBykOqdRH-13" target="NiGAJ-zjjn4dBykOqdRH-7">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="-160" y="867" as="sourcePoint" />
+              <mxPoint x="-60" y="913" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" btelligentADAPTType="Hub-to-Sat" id="NiGAJ-zjjn4dBykOqdRH-17">
+          <mxCell style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="NiGAJ-zjjn4dBykOqdRH-8" target="NiGAJ-zjjn4dBykOqdRH-7">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="-150" y="877" as="sourcePoint" />
+              <mxPoint x="-50" y="923" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" btelligentADAPTType="Hub-to-Link-N" id="NiGAJ-zjjn4dBykOqdRH-18">
+          <mxCell style="endArrow=ERmany;html=1;rounded=0;endSize=15;endFill=0;" edge="1" parent="1" source="NiGAJ-zjjn4dBykOqdRH-7" target="NiGAJ-zjjn4dBykOqdRH-9">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="60" y="958" as="sourcePoint" />
+              <mxPoint x="210" y="1002" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" btelligentADAPTType="Hub-to-Sat" id="NiGAJ-zjjn4dBykOqdRH-19">
+          <mxCell style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="NiGAJ-zjjn4dBykOqdRH-21" target="NiGAJ-zjjn4dBykOqdRH-20">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="670" y="1050" as="sourcePoint" />
+              <mxPoint x="720" y="1000" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Advice" btelligentADAPTType="Hub" id="NiGAJ-zjjn4dBykOqdRH-20">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="280" y="1000" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Ermittlung" btelligentADAPTType="Satellite" id="NiGAJ-zjjn4dBykOqdRH-21">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+            <mxGeometry x="120" y="1000" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Article" btelligentADAPTType="Hub" id="NiGAJ-zjjn4dBykOqdRH-22">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="760" y="1280" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Produktdaten" btelligentADAPTType="Satellite" id="NiGAJ-zjjn4dBykOqdRH-23">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+            <mxGeometry x="920" y="1280" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Link" btelligentADAPTType="Link" id="NiGAJ-zjjn4dBykOqdRH-24">
+          <mxCell style="shape=associativeEntity;whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+            <mxGeometry x="520" y="1280" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" btelligentADAPTType="Hub-to-Sat" id="NiGAJ-zjjn4dBykOqdRH-25">
+          <mxCell style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="NiGAJ-zjjn4dBykOqdRH-29" target="NiGAJ-zjjn4dBykOqdRH-28">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="670" y="1330" as="sourcePoint" />
+              <mxPoint x="720" y="1280" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Logistikdaten" btelligentADAPTType="Satellite" id="NiGAJ-zjjn4dBykOqdRH-27">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+            <mxGeometry x="760" y="1380" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Advice Line" btelligentADAPTType="Hub" id="NiGAJ-zjjn4dBykOqdRH-28">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="280" y="1280" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Default" btelligentADAPTType="Satellite" id="NiGAJ-zjjn4dBykOqdRH-29">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+            <mxGeometry x="120" y="1280" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" btelligentADAPTType="Hub-to-Sat" id="NiGAJ-zjjn4dBykOqdRH-30">
+          <mxCell style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="NiGAJ-zjjn4dBykOqdRH-27" target="NiGAJ-zjjn4dBykOqdRH-22">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="80" y="1307" as="sourcePoint" />
+              <mxPoint x="180" y="1353" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" btelligentADAPTType="Hub-to-Sat" id="NiGAJ-zjjn4dBykOqdRH-31">
+          <mxCell style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="NiGAJ-zjjn4dBykOqdRH-23" target="NiGAJ-zjjn4dBykOqdRH-22">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="90" y="1317" as="sourcePoint" />
+              <mxPoint x="190" y="1363" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" btelligentADAPTType="Hub-to-Link-N" id="NiGAJ-zjjn4dBykOqdRH-32">
+          <mxCell style="endArrow=ERmany;html=1;rounded=0;endSize=15;endFill=0;" edge="1" parent="1" source="NiGAJ-zjjn4dBykOqdRH-22" target="NiGAJ-zjjn4dBykOqdRH-24">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="300" y="1398" as="sourcePoint" />
+              <mxPoint x="450" y="1442" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Link" btelligentADAPTType="Link" id="NiGAJ-zjjn4dBykOqdRH-33">
+          <mxCell style="shape=associativeEntity;whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+            <mxGeometry x="280" y="1140" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" btelligentADAPTType="Hub-to-Link-1" id="NiGAJ-zjjn4dBykOqdRH-34">
+          <mxCell style="endArrow=ERone;html=1;rounded=0;endSize=15;endFill=0;" edge="1" parent="1" source="NiGAJ-zjjn4dBykOqdRH-28" target="NiGAJ-zjjn4dBykOqdRH-33">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="530" y="1080" as="sourcePoint" />
+              <mxPoint x="530" y="980" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" btelligentADAPTType="Hub-to-Link-N" id="NiGAJ-zjjn4dBykOqdRH-35">
+          <mxCell style="endArrow=ERmany;html=1;rounded=0;endSize=15;endFill=0;" edge="1" parent="1" source="NiGAJ-zjjn4dBykOqdRH-20" target="NiGAJ-zjjn4dBykOqdRH-33">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="410" y="1320" as="sourcePoint" />
+              <mxPoint x="530" y="1320" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" btelligentADAPTType="Hub-to-Link-1" id="NiGAJ-zjjn4dBykOqdRH-36">
+          <mxCell style="endArrow=ERone;html=1;rounded=0;endSize=15;endFill=0;" edge="1" parent="1" source="NiGAJ-zjjn4dBykOqdRH-28" target="NiGAJ-zjjn4dBykOqdRH-24">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="350" y="1290" as="sourcePoint" />
+              <mxPoint x="350" y="1210" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" btelligentADAPTType="Hub-to-Sat" id="NiGAJ-zjjn4dBykOqdRH-37">
+          <mxCell style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="NiGAJ-zjjn4dBykOqdRH-39" target="NiGAJ-zjjn4dBykOqdRH-38">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="1190" y="1010" as="sourcePoint" />
+              <mxPoint x="1240" y="960" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Manufacturer" btelligentADAPTType="Hub" id="NiGAJ-zjjn4dBykOqdRH-38">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="760" y="1020" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Default" btelligentADAPTType="Satellite" id="NiGAJ-zjjn4dBykOqdRH-39">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+            <mxGeometry x="920" y="1020" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Link" btelligentADAPTType="Link" id="NiGAJ-zjjn4dBykOqdRH-40">
+          <mxCell style="shape=associativeEntity;whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+            <mxGeometry x="760" y="1140" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" btelligentADAPTType="Hub-to-Link-N" id="NiGAJ-zjjn4dBykOqdRH-42">
+          <mxCell style="endArrow=ERmany;html=1;rounded=0;endSize=15;endFill=0;" edge="1" parent="1" source="NiGAJ-zjjn4dBykOqdRH-38" target="NiGAJ-zjjn4dBykOqdRH-40">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="930" y="1280" as="sourcePoint" />
+              <mxPoint x="1050" y="1280" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" btelligentADAPTType="Hub-to-Link-N" id="NiGAJ-zjjn4dBykOqdRH-43">
+          <mxCell style="endArrow=ERmany;html=1;rounded=0;endSize=15;endFill=0;" edge="1" parent="1" source="NiGAJ-zjjn4dBykOqdRH-22" target="NiGAJ-zjjn4dBykOqdRH-40">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="770" y="1320" as="sourcePoint" />
+              <mxPoint x="650" y="1320" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,1 @@
+C:\Users\meik.truschkowski\AppData\Local\Programs\draw.io\draw.io --export --format png --output "png\Haferkekse.png" "drawio\Haferkekse.drawio"
