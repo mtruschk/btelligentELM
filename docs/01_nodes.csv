@@ -1,22 +1,2 @@
 base_name,shape_id,shape_type,label
-Ensemble1,Ensemble1.NiGAJ-zjjn4dBykOqdRH-1,Hub,Hub
-Ensemble1,Ensemble1.NiGAJ-zjjn4dBykOqdRH-2,Satellite,Satellite
-Ensemble1,Ensemble1.NiGAJ-zjjn4dBykOqdRH-3,Link,Link
-Ensemble1,Ensemble1.NiGAJ-zjjn4dBykOqdRH-7,Hub,Client
-Ensemble1,Ensemble1.NiGAJ-zjjn4dBykOqdRH-8,Satellite,Adressdaten
-Ensemble1,Ensemble1.NiGAJ-zjjn4dBykOqdRH-9,Link,Link
-Ensemble1,Ensemble1.NiGAJ-zjjn4dBykOqdRH-13,Satellite,Finanzdaten
-Ensemble1,Ensemble1.NiGAJ-zjjn4dBykOqdRH-14,Hub,Location
-Ensemble1,Ensemble1.NiGAJ-zjjn4dBykOqdRH-15,Satellite,Adressdaten
-Ensemble1,Ensemble1.NiGAJ-zjjn4dBykOqdRH-20,Hub,Advice
-Ensemble1,Ensemble1.NiGAJ-zjjn4dBykOqdRH-21,Satellite,Ermittlung
-Ensemble1,Ensemble1.NiGAJ-zjjn4dBykOqdRH-22,Hub,Article
-Ensemble1,Ensemble1.NiGAJ-zjjn4dBykOqdRH-23,Satellite,Produktdaten
-Ensemble1,Ensemble1.NiGAJ-zjjn4dBykOqdRH-24,Link,Link
-Ensemble1,Ensemble1.NiGAJ-zjjn4dBykOqdRH-27,Satellite,Logistikdaten
-Ensemble1,Ensemble1.NiGAJ-zjjn4dBykOqdRH-28,Hub,Advice Line
-Ensemble1,Ensemble1.NiGAJ-zjjn4dBykOqdRH-29,Satellite,Default
-Ensemble1,Ensemble1.NiGAJ-zjjn4dBykOqdRH-33,Link,Link
-Ensemble1,Ensemble1.NiGAJ-zjjn4dBykOqdRH-38,Hub,Manufacturer
-Ensemble1,Ensemble1.NiGAJ-zjjn4dBykOqdRH-39,Satellite,Default
-Ensemble1,Ensemble1.NiGAJ-zjjn4dBykOqdRH-40,Link,Link
+Ensemble1,Ensemble1.none,none,none
