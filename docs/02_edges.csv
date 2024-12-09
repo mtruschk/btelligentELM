@@ -1,2 +1,7 @@
 base_name,source_type,source_label,connection_type,connection_label,target_type,target_label,connection_id,source_shape_id,target_shape_id
 Ensemble1,none,none,self precedence,none,none,none,Ensemble1.none,Ensemble1.none,Ensemble1.none
+Ensemble2,Satellite,default,Hub-to-Sat,,Hub,Parent,Ensemble2.7BRsjSB82dXbHQxhyXmk-4,Ensemble2.7BRsjSB82dXbHQxhyXmk-12,Ensemble2.7BRsjSB82dXbHQxhyXmk-7
+Ensemble2,Hub,Parent,Hub-to-Link-N,,Link,Link,Ensemble2.7BRsjSB82dXbHQxhyXmk-5,Ensemble2.7BRsjSB82dXbHQxhyXmk-7,Ensemble2.7BRsjSB82dXbHQxhyXmk-9
+Ensemble2,Hub,Child,Hub-to-Link-1,,Link,Link,Ensemble2.7BRsjSB82dXbHQxhyXmk-6,Ensemble2.7BRsjSB82dXbHQxhyXmk-10,Ensemble2.7BRsjSB82dXbHQxhyXmk-9
+Ensemble2,Hub,Parent,Hub-to-Sat,,Satellite,other,Ensemble2.7BRsjSB82dXbHQxhyXmk-13,Ensemble2.7BRsjSB82dXbHQxhyXmk-7,Ensemble2.7BRsjSB82dXbHQxhyXmk-8
+Ensemble2,Satellite,default,Hub-to-Sat,,Hub,Child,Ensemble2.7BRsjSB82dXbHQxhyXmk-14,Ensemble2.7BRsjSB82dXbHQxhyXmk-11,Ensemble2.7BRsjSB82dXbHQxhyXmk-10

@@ -1,2 +1,11 @@
 base_name,shape_id,shape_type,label
 Ensemble1,Ensemble1.none,none,none
+Ensemble2,Ensemble2.7BRsjSB82dXbHQxhyXmk-1,Hub,Hub
+Ensemble2,Ensemble2.7BRsjSB82dXbHQxhyXmk-2,Satellite,Satellite
+Ensemble2,Ensemble2.7BRsjSB82dXbHQxhyXmk-3,Link,Link
+Ensemble2,Ensemble2.7BRsjSB82dXbHQxhyXmk-7,Hub,Parent
+Ensemble2,Ensemble2.7BRsjSB82dXbHQxhyXmk-8,Satellite,other
+Ensemble2,Ensemble2.7BRsjSB82dXbHQxhyXmk-9,Link,Link
+Ensemble2,Ensemble2.7BRsjSB82dXbHQxhyXmk-10,Hub,Child
+Ensemble2,Ensemble2.7BRsjSB82dXbHQxhyXmk-11,Satellite,default
+Ensemble2,Ensemble2.7BRsjSB82dXbHQxhyXmk-12,Satellite,default
