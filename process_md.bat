@@ -1,5 +1,5 @@
 call ..\synchronize_btelligentELM.bat
 
-extract_drawio3.py
+extract_drawio4.py
 
 call ..\synchronize_btelligentELM.bat
