@@ -1,9 +1,95 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0" version="25.0.3">
   <diagram name="Seite-1" id="jm5fCKv7m_PiCtwvwLo8">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <object label="Hub" btelligentShapeType="Hub" id="7BRsjSB82dXbHQxhyXmk-1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="340" y="120" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Satellite" btelligentShapeType="Satellite" id="7BRsjSB82dXbHQxhyXmk-2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+            <mxGeometry x="200" y="120" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Link" btelligentShapeType="Link" id="7BRsjSB82dXbHQxhyXmk-3">
+          <mxCell style="shape=associativeEntity;whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+            <mxGeometry x="480" y="120" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" btelligentShapeType="Hub-to-Sat" id="7BRsjSB82dXbHQxhyXmk-4">
+          <mxCell style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="7BRsjSB82dXbHQxhyXmk-12" target="7BRsjSB82dXbHQxhyXmk-7">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="560" y="370" as="sourcePoint" />
+              <mxPoint x="610" y="320" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" btelligentShapeType="Hub-to-Link-N" id="7BRsjSB82dXbHQxhyXmk-5">
+          <mxCell style="endArrow=ERmany;html=1;rounded=0;endSize=15;endFill=0;" edge="1" parent="1" source="7BRsjSB82dXbHQxhyXmk-7" target="7BRsjSB82dXbHQxhyXmk-9">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="510" y="590" as="sourcePoint" />
+              <mxPoint x="560" y="550" as="targetPoint" />
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" btelligentShapeType="Hub-to-Link-1" id="7BRsjSB82dXbHQxhyXmk-6">
+          <mxCell style="endArrow=ERone;html=1;rounded=0;endSize=15;endFill=0;" edge="1" parent="1" source="7BRsjSB82dXbHQxhyXmk-10" target="7BRsjSB82dXbHQxhyXmk-9">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="620" y="470" as="sourcePoint" />
+              <mxPoint x="620" y="410" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Parent" btelligentShapeType="Hub" id="7BRsjSB82dXbHQxhyXmk-7">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="320" y="360" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="other" btelligentShapeType="Satellite" id="7BRsjSB82dXbHQxhyXmk-8">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+            <mxGeometry x="160" y="360" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Link" btelligentShapeType="Link" id="7BRsjSB82dXbHQxhyXmk-9">
+          <mxCell style="shape=associativeEntity;whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+            <mxGeometry x="320" y="480" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Child" btelligentShapeType="Hub" id="7BRsjSB82dXbHQxhyXmk-10">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="320" y="600" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="default" btelligentShapeType="Satellite" id="7BRsjSB82dXbHQxhyXmk-11">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+            <mxGeometry x="160" y="600" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="default" btelligentShapeType="Satellite" id="7BRsjSB82dXbHQxhyXmk-12">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+            <mxGeometry x="320" y="260" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" btelligentShapeType="Hub-to-Sat" id="7BRsjSB82dXbHQxhyXmk-13">
+          <mxCell style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="7BRsjSB82dXbHQxhyXmk-7" target="7BRsjSB82dXbHQxhyXmk-8">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="390" y="330" as="sourcePoint" />
+              <mxPoint x="390" y="370" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" btelligentShapeType="Hub-to-Sat" id="7BRsjSB82dXbHQxhyXmk-14">
+          <mxCell style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="7BRsjSB82dXbHQxhyXmk-11" target="7BRsjSB82dXbHQxhyXmk-10">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="400" y="340" as="sourcePoint" />
+              <mxPoint x="400" y="380" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
       </root>
     </mxGraphModel>
   </diagram>
