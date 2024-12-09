@@ -90,6 +90,32 @@
             </mxGeometry>
           </mxCell>
         </object>
+        <object label="Nudel" btelligentShapeType="Hub" id="7BRsjSB82dXbHQxhyXmk-15">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="560" y="480" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Pasta" btelligentShapeType="Satellite" id="7BRsjSB82dXbHQxhyXmk-16">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+            <mxGeometry x="560" y="360" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" btelligentShapeType="Hub-to-Sat" id="7BRsjSB82dXbHQxhyXmk-17">
+          <mxCell style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="7BRsjSB82dXbHQxhyXmk-16" target="7BRsjSB82dXbHQxhyXmk-15">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="330" y="400" as="sourcePoint" />
+              <mxPoint x="290" y="400" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="" btelligentShapeType="Hub-to-Link-1" id="7BRsjSB82dXbHQxhyXmk-18">
+          <mxCell style="endArrow=ERone;html=1;rounded=0;endSize=15;endFill=0;" edge="1" parent="1" source="7BRsjSB82dXbHQxhyXmk-15" target="7BRsjSB82dXbHQxhyXmk-9">
+            <mxGeometry width="50" height="50" relative="1" as="geometry">
+              <mxPoint x="390" y="610" as="sourcePoint" />
+              <mxPoint x="390" y="550" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
       </root>
     </mxGraphModel>
   </diagram>
